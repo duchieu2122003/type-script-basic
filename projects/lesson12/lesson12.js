@@ -1,1 +1,1 @@
-let myarr = ["eric", "hoi dan it", 25]
+let myarr = ["eric", "Hiệu", 25];

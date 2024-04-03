@@ -1,7 +1,7 @@
-let count: string = "Hoi Dan IT";
+let count: string = "Hiệu";
 
-console.log(">>> check count 0 = ", count)
+console.log(">>> check count 0 = ", count);
 
-let test = ['eric', 'hoi danit', 'typescirpt', 96];
+let test = ["eric", "hoi danit", "typescirpt", 96];
 
 test.push(25);

@@ -1,6 +1,6 @@
 // let person: object;
 
-// let mine3 = {name : 'hoi dan it'}
+// let mine3 = {name : 'Hiệu'}
 
 // person = { name: 'Eric'};
 // person = 'Eric'
@@ -11,10 +11,9 @@
 // }
 
 let pro1: {
-    name: string,
-    age: number
+  name: string;
+  age: number;
 } = {
-    name: "Eric", //string
-    age: 25 //age
-}
-
+  name: "Eric", //string
+  age: 25, //age
+};

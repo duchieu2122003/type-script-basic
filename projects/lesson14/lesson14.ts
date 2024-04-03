@@ -9,6 +9,6 @@ enum API_STATUS {
 
 let a1 = API_STATUS.PENDDING;
 let a2 = API_STATUS.FULFILLED;
-
+let c = API_STATUS.FULFILLED
 //frontend : syntax
 console.log(">>> a1 = ", a1, " a2 = ", a2)

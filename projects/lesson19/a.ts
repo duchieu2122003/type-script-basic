@@ -1,7 +1,6 @@
-function addNumberOrString(
-  a: number | string | object | boolean,
-  b: number | string
-) {
+type aType = number | string | object | boolean;
+
+function addNumberOrStringa(a: aType, b: number | string) {
   if (typeof a === "number" && typeof b === "number") {
     return a + b;
   }
@@ -13,4 +12,4 @@ function addNumberOrString(
 
 //loi khi running
 //loi khi compile
-console.log(">>> check: ", addNumberOrString(true, "Hiệu"));
+console.log(">>> check: ", addNumberOrStringa("a", "Hiệu"));
